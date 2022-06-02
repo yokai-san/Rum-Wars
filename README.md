@@ -8,4 +8,4 @@ Rum Wars is a site that is bulit for history nerds, people who like finding out 
 
 ## Features
 
-### Navigation Bar
+#### Navigation Bar
