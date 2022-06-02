@@ -13,3 +13,10 @@ Rum Wars is a site that is bulit for history nerds, people who like finding out 
   *   This allows users to easily navigate throughout the site across all devices without frustration 
 
 * #### _History Section_
+ * The history section will be broken into 3 parts, explaining different aspects of rum's history. At the end of this section there is a link to the drinks page.
+ * this section will be interesting and engaging, hopefully encouraging the user to continue reading, sharing the information and checking out the drinks page.
+
+* #### _Footer_
+ * The footer section includes links to the relevant social media sites. The links will open in a new tab to allow easy navigation for the user.
+ * The footer is valuable to the user as it encourages them to keep connected via social media.
+ * the footer will also include a "subscribe to our newsletter" box in which they will add their email.
