@@ -121,10 +121,34 @@ h1, h2 {
 #history-block {
     width: 66%;
     margin-left: 30px;
+    
 }
 
 #history-text-body {
-    padding-top: 30px;
+    padding: 30px 30px;
     column-count: 3;
+
+}
+
+
+
+footer {
+    height: 100px;
     float: left;
+    width: 33%;
+}
+
+.social-networks {
+    /* text-align: center; */
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks .fab {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
