@@ -23,7 +23,7 @@ h1, h2 {
 }
 
 #logo {
-    float: left;
+    /* float: left; */
     font-size: 280%;
     margin-left: 30px;
     
@@ -32,14 +32,16 @@ h1, h2 {
 #tag-line {
     font-size: 150%;
     margin-left: 30px;
-    float: left;
+    /* float: left; */
+    /* text-align: left; */
 }
 
-/* #header-background {
-    background-color: rgb(36, 57, 84);
+#header-background {
+    /* background-color: rgb(36, 57, 84);
     width: 100%;
-    height: 80px;
-} */
+    height: 80px; */
+    /* position: fixed; */
+}
 
 #nav-menu {
     font-size: 110%;
@@ -76,7 +78,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
+   
     position: relative;
 }
 
@@ -87,25 +89,42 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
+    background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover;
     background: url('../images/sugar-plantation.jpeg') no-repeat center center;
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 10vw;
     font-family: Alfa Slab one, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-    
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 30px;
-    right: 150px;
-
+    color: black;
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgba(236, 42, 39, 1);
+    top: 50%;
+    left: 50%;
     position: absolute;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+
+#history-heading {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#history-block {
+    width: 66%;
+    margin-left: 30px;
+}
+
+#history-text-body {
+    padding-top: 30px;
+    column-count: 3;
+    float: left;
 }
