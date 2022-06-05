@@ -204,10 +204,10 @@ nav {
 
 
 #rum-container {
-    width: 180px;
-    height: 180px;
-    /* padding: 10px;
-    border-style: solid;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    /* border-style: solid;
     border-color: #ccc;
     border-width: 2px; */
     border-radius: 50%;
@@ -222,6 +222,19 @@ nav {
     object-fit: fill;
 }
 
+#ron-cover {
+    background: url('../images/ron.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+#rhum-cover {
+    background: url('../images/rhum.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
 
 footer {
     height: 100px;
