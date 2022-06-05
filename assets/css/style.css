@@ -103,9 +103,6 @@ nav {
 #hero-image {
     height: 600px;
     width: 100%;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background: url('../images/sugar-plantation.jpeg') no-repeat center center;
 }
 
@@ -120,9 +117,6 @@ nav {
 #types-image {
     height: 600px;
     width: 100%;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background: url('../images/Rum-types-hero.jpg') no-repeat center center;
 }
 
@@ -144,8 +138,26 @@ nav {
     mix-blend-mode: screen;
 }
 
+#type-cover-text {
+    font-size: 5.5vw;
+    font-family: Alfa Slab one, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+    width: 60%;
+    text-align: center;
+    padding: 80px;
+    margin: 0 auto;
+    background-color: rgba(236, 42, 39, 0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+
 #history-heading {
-    font-size: 35px;
+    font-size: 500%;
     margin-top: 30px;
 }
 
@@ -163,21 +175,52 @@ nav {
 
 /* types of rum */
 
+#tpyes-container {
+    height: 1000px;
+}
+
 #types-heading {
     clear: both;
     padding: 50px 0 40px 30px;
+    font-size: 500%;
 }
 
 #rum-types {
-    margin: 30px;
+    margin-left: 30px;
+    float: left;
+    width: 40%;
+}
+
+.rum {
+    float: right;
+    clear: both;
 }
 
 #rum-text {
-    width: 40%;
+    /* width: 40%; */
     padding: 30px 30px;
-    column-count: 2;
+    /* column-count: 2; */
 }
 
+
+#rum-container {
+    width: 180px;
+    height: 180px;
+    /* padding: 10px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 2px; */
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: fill;
+}
+
+#rum-cover {
+    background: url('../images/rum.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
 
 
 footer {
