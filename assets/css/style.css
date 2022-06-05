@@ -120,6 +120,12 @@ nav {
     background: url('../images/Rum-types-hero.jpg') no-repeat center center;
 }
 
+#drinks-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/rum-cocktail-hero.jpg') no-repeat center center;
+}
+
 #cover-text {
     font-size: 5.5vw;
     font-family: Alfa Slab one, sans-serif;
@@ -139,6 +145,24 @@ nav {
 }
 
 #type-cover-text {
+    font-size: 5.5vw;
+    font-family: Alfa Slab one, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+    width: 60%;
+    text-align: center;
+    padding: 80px;
+    margin: 0 auto;
+    background-color: rgba(236, 42, 39, 0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+
+#drinks-cover-text {
     font-size: 5.5vw;
     font-family: Alfa Slab one, sans-serif;
     text-transform: uppercase;
