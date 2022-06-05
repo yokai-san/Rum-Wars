@@ -15,7 +15,7 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Alfa Slab one, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -109,6 +109,23 @@ nav {
     background: url('../images/sugar-plantation.jpeg') no-repeat center center;
 }
 
+#types-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+   
+    position: relative;
+}
+
+#types-image {
+    height: 600px;
+    width: 100%;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: url('../images/Rum-types-hero.jpg') no-repeat center center;
+}
+
 #cover-text {
     font-size: 5.5vw;
     font-family: Alfa Slab one, sans-serif;
@@ -149,6 +166,16 @@ nav {
 #types-heading {
     clear: both;
     padding: 50px 0 40px 30px;
+}
+
+#rum-types {
+    margin: 30px;
+}
+
+#rum-text {
+    width: 40%;
+    padding: 30px 30px;
+    column-count: 2;
 }
 
 
