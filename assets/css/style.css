@@ -282,6 +282,26 @@ img{
     object-fit: fill;
 } */
 
+/* Drinks */
+
+#image-cocktail-1 {
+    height: 700px;
+    padding-left: 30px;
+    padding-bottom: 20px; 
+}
+
+#recipe-cocktail-1 {
+    padding-left: 30px;
+}
+
+#recipe-cocktail-1 h2 {
+    padding-bottom: 30px;
+    font-size: 180%;
+    /* text-decoration: underline; */
+}
+
+/* Footer */
+
 footer {
     height: 150px;
 }
