@@ -200,9 +200,10 @@ nav {
 
 /* types of rum */
 
-#tpyes-container {
-    height: 1000px;
-}
+/* #tpyes-container {
+    height: 800px;
+    clear: both;
+} */
 
 #types-heading {
     clear: both;
@@ -216,6 +217,10 @@ nav {
     width: 40%;
 }
 
+#rum-images {
+    clear: right;
+}
+
 .rum {
     /* #float: left; */
     /* clear: both; */
@@ -223,14 +228,14 @@ nav {
 
 #rum-text {
     /* width: 40%; */
-    padding: 30px 30px;
+    padding: 25px 50px 60px 30px;
     /* column-count: 2; */
 }
 
 
 #rum-container {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     /* padding-bottom: 15px; */
     /* border-style: solid;
     border-color: #ccc;
@@ -278,14 +283,11 @@ img{
 } */
 
 footer {
-    height: 100px;
-    /* float: left; */
-    width: 33%;
+    height: 150px;
 }
 
 .social-networks {
-    text-align: center;
-    /* float: left; */
+    text-align: right;
 }
 
 .social-networks > li {
@@ -295,6 +297,6 @@ footer {
 .social-networks .fab {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 4% 2%;
     color: #3a3a3a;
 }
