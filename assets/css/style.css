@@ -123,7 +123,7 @@ nav {
 #drinks-image {
     height: 600px;
     width: 100%;
-    background: url('../images/rum-cocktail-hero.jpg');
+    background: url('../images/rum-cocktail-hero.jpg') no-repeat center center;
     
 }
 
@@ -217,8 +217,8 @@ nav {
 }
 
 .rum {
-    float: right;
-    clear: both;
+    /* #float: left; */
+    /* clear: both; */
 }
 
 #rum-text {
@@ -229,27 +229,39 @@ nav {
 
 
 #rum-container {
-    width: 150px;
-    height: 150px;
-    padding: 15px;
+    width: 200px;
+    height: 200px;
+    /* padding-bottom: 15px; */
     /* border-style: solid;
     border-color: #ccc;
     border-width: 2px; */
     border-radius: 50%;
-    margin: 0 auto;
+    /* margin: 0 auto;  */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+    
+
+
+img{
+    /* max-width: 100%; */
+    max-height: 100%;
+    display: block; 
+
+    
     
 }
 
-#rum-cover {
+/* #rum-cover {
     background: url('../images/rum.jpg') no-repeat center center;
-    /* height: 100%;
+    height: 100%;
     border-radius: 50%;
-    object-fit: contain; */
-    width: auto;
-    height: auto;
-    max-width: MaxSize;
-    max-height: MaxSize;
+    object-fit: contain;
+    padding-bottom: 15px;
 }
+   
 
 #ron-cover {
     background: url('../images/ron.jpg') no-repeat center center;
@@ -263,16 +275,17 @@ nav {
     height: 100%;
     border-radius: 50%;
     object-fit: fill;
-}
+} */
 
 footer {
     height: 100px;
-    float: left;
+    /* float: left; */
     width: 33%;
 }
 
 .social-networks {
-    /* text-align: center; */
+    text-align: center;
+    /* float: left; */
 }
 
 .social-networks > li {
