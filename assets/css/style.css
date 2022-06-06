@@ -22,6 +22,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+/* ol li::before {
+    font-family: Alfa Slab one, sans-serif;
+} */
+
 #logo {
     float: left;
     clear: right;
@@ -312,6 +316,10 @@ img{
 }
 
 ul {
+    padding-left: 30px;
+}
+
+ol {
     padding-left: 30px;
 }
 
