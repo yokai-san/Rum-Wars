@@ -284,20 +284,35 @@ img{
 
 /* Drinks */
 
+
 #image-cocktail-1 {
-    height: 700px;
+    height: 900px;
     padding-left: 30px;
     padding-bottom: 20px; 
+    width: 40%;
+   
+   
+}
+
+#recipe-heading {
+    float: right;
+
 }
 
 #recipe-cocktail-1 {
     padding-left: 30px;
+    width: 35%;
+    clear: both;
 }
 
 #recipe-cocktail-1 h2 {
     padding-bottom: 30px;
     font-size: 180%;
     /* text-decoration: underline; */
+}
+
+ul {
+    padding-left: 30px;
 }
 
 /* Footer */
