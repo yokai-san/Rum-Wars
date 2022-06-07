@@ -131,23 +131,6 @@ nav {
     
 }
 
-#cover-text {
-    font-size: 5.5vw;
-    font-family: Alfa Slab one, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: black;
-    width: 60%;
-    text-align: center;
-    padding: 80px;
-    margin: 0 auto;
-    background-color: rgba(236, 42, 39, 0.8);
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    mix-blend-mode: screen;
-}
 
 #type-cover-text {
     font-size: 5.5vw;
@@ -167,23 +150,6 @@ nav {
     mix-blend-mode: screen;
 }
 
-#drinks-cover-text {
-    font-size: 5.5vw;
-    font-family: Alfa Slab one, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: black;
-    width: 60%;
-    text-align: center;
-    padding: 80px;
-    margin: 0 auto;
-    background-color: rgba(236, 42, 39, 0.8);
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    mix-blend-mode: screen;
-}
 
 #history-heading {
     font-size: 500%;
@@ -230,14 +196,14 @@ nav {
     /* clear: both; */
 }
 
-#rum-text {
+.rum-text {
     /* width: 40%; */
     padding: 25px 50px 60px 30px;
     /* column-count: 2; */
 }
 
 
-#rum-container {
+.rum-container {
     width: 180px;
     height: 180px;
     /* padding-bottom: 15px; */
