@@ -22,23 +22,12 @@ h1, h2, h3 {
     color: #252525;
 }
 
-/* ol li::before {
-    font-family: Alfa Slab one, sans-serif;
-} */
-
 #logo {
     float: left;
     clear: right;
     font-size: 280%;
-    margin-left: 30px;
-    /* color: rgba(236, 42, 39, 0.8); */
-    
-    
+    margin-left: 30px; 
 }
-
-/* .clearfix {
-    overflow: auto;
-} */
 
 #tag-line {
     font-size: 150%;
@@ -50,12 +39,14 @@ h1, h2, h3 {
 }
 
 /* #header-background {
-    background-color: rgb(36, 57, 84);
-    width: 100%;
-    height: 80px; 
     position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
 } */
 
+/* navigation bar */
+/* The code that makes the navigation bar was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project. */
 nav {
     margin-bottom: 40px;
 }
@@ -95,9 +86,9 @@ nav {
 #hero-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
-   
+    overflow: hidden;  
     position: relative;
+    /* padding-top: 140px; */
 }
 
 #cover-text, #cover-text h2 {
@@ -114,7 +105,6 @@ nav {
     height: 600px;
     width: 100%;
     overflow: hidden;
-   
     position: relative;
 }
 
@@ -131,6 +121,8 @@ nav {
     
 }
 
+/* text overlay hero image */
+/*  The code for the text overlay on top of the hero images was taken from W3Schools [How TO - Cutout Text](https://www.w3schools.com/howto/howto_css_cutout_text.asp)  tutorial. */
 
 #type-cover-text {
     font-size: 5.5vw;
@@ -163,17 +155,21 @@ nav {
 }
 
 #history-text-body {
-    padding: 30px 30px;
+    padding: 30px 30px 80px 30px;
     column-count: 3;
+
 
 }
 
 /* types of rum */
+/* 
+#types {
+    height: 100%;
+    width: 66%;
+    margin-left: 30px;
+}  */
 
-/* #tpyes-container {
-    height: 800px;
-    clear: both;
-} */
+ 
 
 #types-heading {
     clear: both;
@@ -183,8 +179,9 @@ nav {
 
 #rum-types {
     margin-left: 30px;
-    float: left;
-    width: 40%;
+    /* float: left; */
+    width: 60%;
+    height: 100%;
 }
 
 #rum-images {
@@ -192,14 +189,26 @@ nav {
 }
 
 .rum {
-    /* #float: left; */
-    /* clear: both; */
+    margin-top: 20px;
+    width: 95%;
+    display: inline-block;
+}
+
+.rum p {
+    padding: 25px 50px 60px 30px;
+    width: 50%;
+    float: left;
+}
+
+.rum img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .rum-text {
-    /* width: 40%; */
     padding: 25px 50px 60px 30px;
-    /* column-count: 2; */
 }
 
 
@@ -220,53 +229,22 @@ nav {
     
 
 
-img{
-    /* max-width: 100%; */
+  img{
     max-height: 100%;
-    display: block; 
-
-    
-    
-}
-
-/* #rum-cover {
-    background: url('../images/rum.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: contain;
-    padding-bottom: 15px;
-}
-   
-
-#ron-cover {
-    background: url('../images/ron.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: fill;
-}
-
-#rhum-cover {
-    background: url('../images/rhum.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: fill;
-} */
+    display: block;  
+}  
 
 /* Drinks */
-
 
 #image-cocktail-1 {
     height: 900px;
     padding-left: 30px;
     padding-bottom: 20px; 
-    width: 40%;
-   
-   
+    width: 40%;  
 }
 
 #recipe-heading {
-    float: right;
-
+    padding-bottom: 80px;
 }
 
 #recipe-cocktail-1 {
@@ -278,7 +256,6 @@ img{
 #recipe-cocktail-1 h2 {
     padding-bottom: 30px;
     font-size: 180%;
-    /* text-decoration: underline; */
 }
 
 ul {
@@ -289,14 +266,59 @@ ol {
     padding-left: 30px;
 }
 
+/* newsletter */
+
+.newsletter-section {
+    position: relative;
+    bottom: 0;
+}
+
+.newsletter {
+    max-width: 630px;
+	width: 100%;
+	position: relative;
+}
+
+.newsletter .text-input {
+	width: 40%;
+    padding: 15px 80px;
+    background: #c9c8c8;
+}
+
+.sub-button {
+	right: 30px;
+	background: #252525;
+	padding: 15px 20px;
+	/* border-radius: 15px; */
+	font-size: 12px;
+	letter-spacing: 5px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.sub-button:hover {
+    background-color: #fafafa;
+    color: #252525;
+    border: 2px solid #252525;
+}
+
+form {
+    padding: 50px 0 10px 30px;
+    position: absolute;
+}
+
 /* Footer */
+/* The code that makes the social media links was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project. */
 
 footer {
-    height: 150px;
+    /* height: 150px; */
 }
 
 .social-networks {
     text-align: right;
+    width: 40%;
+    float: right;
+    padding-top: 50px;
 }
 
 .social-networks > li {
