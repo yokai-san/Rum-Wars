@@ -27,3 +27,19 @@ Rum Wars is a site that is bulit for history nerds, people who like finding out 
   * The footer section includes links to the relevant social media sites. The links will open in a new tab to allow easy navigation for the user.
   * The footer is valuable to the user as it encourages them to keep connected via social media.
   * The footer will also include a "subscribe to our newsletter" box in which they will add their email.
+
+##Validator Testing
+
+* #### _HTML_
+  *  No errors were found when running the code through the official W3C validator.
+* #### _CSS_
+  *  No errors were found when running the code through the official jigsaw.W3C validator.
+* #### _Accessibility_
+  *  I have confirmed that the colors and fonts chosen for the website are easy to read and accessible by running lighthouse in devtools.
+
+##Credits
+
+* #### _Content_
+  * The code that makes the social media links was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project.
+  * The code that makes the navigation bar was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project.
+  * The code for the text overlay on top of the hero images was taken from W3Schools [How TO - Cutout Text](https://www.w3schools.com/howto/howto_css_cutout_text.asp)  tutorial.
