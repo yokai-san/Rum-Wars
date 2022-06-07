@@ -16,7 +16,7 @@ Rum Wars is a site that is bulit for history nerds, people who like finding out 
   * The history section will be broken into 3 parts, explaining different aspects of rum's history. At the end of this section there is a link to the drinks page.
   * This section will be interesting and engaging, hopefully encouraging the user to continue reading, sharing the information and checking out the drinks page.
 
-* #### Types Section_
+* #### _Types Section_
   * This section will provide users with the different styles of rums, their origins, production and heritage.
 
 * #### _Drinks Section_
