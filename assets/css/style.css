@@ -13,6 +13,7 @@ body {
     color: #3a3a3a;
 }
 
+
 /* headings and logo */
 
 h1, h2, h3 {
@@ -34,19 +35,13 @@ h1, h2, h3 {
     margin-left: 30px;
     float: left;
     position: relative;
-    clear: both;
-    
+    clear: both; 
 }
 
-/* #header-background {
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    z-index: 1;
-} */
 
 /* navigation bar */
 /* The code that makes the navigation bar was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project. */
+
 nav {
     margin-bottom: 40px;
 }
@@ -88,7 +83,6 @@ nav {
     width: 100%;
     overflow: hidden;  
     position: relative;
-    /* padding-top: 140px; */
 }
 
 #cover-text, #cover-text h2 {
@@ -117,9 +111,9 @@ nav {
 #drinks-image {
     height: 600px;
     width: 100%;
-    background: url('../images/rum-cocktail-hero.jpg') no-repeat center center;
-    
+    background: url('../images/rum-cocktail-hero.jpg') no-repeat center center; 
 }
+
 
 /* text overlay hero image */
 /*  The code for the text overlay on top of the hero images was taken from W3Schools [How TO - Cutout Text](https://www.w3schools.com/howto/howto_css_cutout_text.asp)  tutorial. */
@@ -142,34 +136,20 @@ nav {
     mix-blend-mode: screen;
 }
 
-
 #history-heading {
     font-size: 500%;
     margin-top: 30px;
-}
-
-#history-block {
-    width: 66%;
     margin-left: 30px;
-    
 }
 
 #history-text-body {
-    padding: 30px 30px 80px 30px;
+    width: 66%;
+    padding: 30px 30px 80px 60px;
     column-count: 3;
-
-
 }
 
-/* types of rum */
-/* 
-#types {
-    height: 100%;
-    width: 66%;
-    margin-left: 30px;
-}  */
 
- 
+/* types of rum */
 
 #types-heading {
     clear: both;
@@ -179,13 +159,8 @@ nav {
 
 #rum-types {
     margin-left: 30px;
-    /* float: left; */
     width: 60%;
     height: 100%;
-}
-
-#rum-images {
-    clear: right;
 }
 
 .rum {
@@ -207,32 +182,6 @@ nav {
     border-radius: 50%;
 }
 
-.rum-text {
-    padding: 25px 50px 60px 30px;
-}
-
-
-.rum-container {
-    width: 180px;
-    height: 180px;
-    /* padding-bottom: 15px; */
-    /* border-style: solid;
-    border-color: #ccc;
-    border-width: 2px; */
-    border-radius: 50%;
-    /* margin: 0 auto;  */
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-    
-
-
-  img{
-    max-height: 100%;
-    display: block;  
-}  
 
 /* Drinks */
 
@@ -242,6 +191,11 @@ nav {
     padding-bottom: 20px; 
     width: 40%;  
 }
+
+img{
+    max-height: 100%;
+    display: block;  
+}  
 
 #recipe-heading {
     padding-bottom: 80px;
@@ -266,6 +220,7 @@ ol {
     padding-left: 30px;
 }
 
+
 /* newsletter */
 
 .newsletter-section {
@@ -283,13 +238,14 @@ ol {
 	width: 40%;
     padding: 15px 80px;
     background: #c9c8c8;
+    border-radius: 15px;
 }
 
 .sub-button {
 	right: 30px;
 	background: #252525;
 	padding: 15px 20px;
-	/* border-radius: 15px; */
+	border-radius: 15px;
 	font-size: 12px;
 	letter-spacing: 5px;
 	color: #fff;
@@ -311,7 +267,7 @@ form {
 /* The code that makes the social media links was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project. */
 
 footer {
-    /* height: 150px; */
+    height: 150px;
 }
 
 .social-networks {
@@ -330,4 +286,69 @@ footer {
     margin: 1%;
     padding: 4% 2%;
     color: #3a3a3a;
+}
+
+/* media queries */
+
+/* For large to medium screens size form 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #history-text-body {
+        width: 66%;
+        padding: 30px 30px 80px 60px;
+        column-count: 2;
+    }
+
+    #rum-types {
+        margin-left: 30px;
+        width: 90%;
+        height: 100%;
+    }
+
+    #recipe-cocktail-1 {
+        text-align: left;
+        width: 50%;
+    }
+
+    #image-cocktail-1 {
+        height: 800px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        width: 40%;
+    }
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #logo {
+        float: none;
+        clear: right;
+        font-size: 231%;
+        margin-left: 30px;
+        line-height: 50px;
+    }
+    
+    #history-text-body {
+        width: 75%;
+        padding: 20px 20px 70px 50px;
+        column-count: 1;
+    }
+
+    #nav-menu {
+        font-size: 100%;
+        letter-spacing: 4px;
+        float: left;
+        top: 50px;
+        line-height: 50px;
+    }
+
+    #tag-line {
+        font-size: 71%;
+    }
+
+    #history-heading {
+        font-size: 353%;
+    }
 }
