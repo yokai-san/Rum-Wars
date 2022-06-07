@@ -28,7 +28,7 @@ Rum Wars is a site that is bulit for history nerds, people who like finding out 
   * The footer is valuable to the user as it encourages them to keep connected via social media.
   * The footer will also include a "subscribe to our newsletter" box in which they will add their email.
 
-##Validator Testing
+## Validator Testing
 
 * #### _HTML_
   *  No errors were found when running the code through the official W3C validator.
@@ -37,7 +37,7 @@ Rum Wars is a site that is bulit for history nerds, people who like finding out 
 * #### _Accessibility_
   *  I have confirmed that the colors and fonts chosen for the website are easy to read and accessible by running lighthouse in devtools.
 
-##Credits
+## Credits
 
 * #### _Content_
   * The code that makes the social media links was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project.
