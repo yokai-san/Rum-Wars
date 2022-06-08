@@ -424,3 +424,23 @@ footer {
         padding: 30px;
     }
 }
+
+/* For medium screen sizes from 350px wide and down */
+@media screen and (max-width: 350px) {
+
+
+    #nav-menu li {
+        float: left;
+        list-style-type: none;
+        margin-right: 10px;
+    }
+
+    #types-heading {
+        font-size: 204%;
+    }
+
+    #background-header,
+    #tag-line {
+        width: 60%;
+    }
+}
